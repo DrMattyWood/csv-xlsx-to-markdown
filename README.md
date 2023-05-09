@@ -2,6 +2,8 @@
 
 This Python script converts CSV or XLSX files containing survey responses to a Markdown file with a clean and readable format.
 
+The script lists the first row as questions per respondent & assumes each row from row 2 is a separate respondent.
+
 ## Usage
 
 1. Install Python 3.x and required libraries: `pip3 install openpyxl`
